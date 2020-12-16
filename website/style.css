@@ -1,0 +1,30 @@
+.drop-zone {
+    max-width: 500px;
+    height: 75px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 2px dashed #cccccc;
+    border-radius: 10px;
+
+
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+#click-text {
+    color: #91917D;
+}

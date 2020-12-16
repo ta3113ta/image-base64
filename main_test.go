@@ -42,3 +42,6 @@ func TestUploadFile(t *testing.T) {
 		t.Errorf("Status code must be 200, your status code is : %d", res.Code)
 	}
 }
+
+// test support image file only
+

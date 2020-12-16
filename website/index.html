@@ -4,17 +4,24 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
+    <div class="drop-zone">
+        <span class="drop-zone__prompt">Drop image here or <span id="click-text">click to upload</span> </span>
+        <input class="drop-zone__input" type="file" name="myFile">
+    </div>
+
+    <script src="script.js"></script>
+    <!-- 
     <form action="http://localhost:8080/upload" enctype="multipart/form-data" method="POST">
         <input type="file" name="myFile" />
         <input type="submit" value="upload file...">
-    </form>
-    <div id="drop_img_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-        <p>Drag and drop images here</p>
-    </div>
+    </form> -->
+
+    <div></div>
+
+
 </body>
 
 </html>
