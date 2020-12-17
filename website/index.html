@@ -7,17 +7,13 @@
 </head>
 
 <body>
-    <div class="drop-zone">
-        <span class="drop-zone__prompt">Drop image here or <span id="click-text">click to upload</span> </span>
-        <input class="drop-zone__input" type="file" name="myFile">
-    </div>
+    <h1>Upload image file</h1>
+    <form class="form" id="myForm">
+        <input type="file" name="inpFile" id="inpFile" multiple accept="image/*"><br>
+        <button type="submit">Upload File</button>
+    </form>
 
     <script src="script.js"></script>
-    <!-- 
-    <form action="http://localhost:8080/upload" enctype="multipart/form-data" method="POST">
-        <input type="file" name="myFile" />
-        <input type="submit" value="upload file...">
-    </form> -->
 </body>
 
 </html>
